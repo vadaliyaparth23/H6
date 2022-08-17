@@ -1,0 +1,135 @@
+select
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Student Registration Form
+        </h1>
+        <h5>
+            Fill out the form for registration
+        </h5>
+    </header>
+    <main>
+        <div>
+            <lable id="Student Name">Student Name
+                <br>
+                <input type="text" id="student name" placeholder="First">
+
+                <input type="text" id="student name" placeholder="Last">
+            </lable>
+        </div>
+        <br>
+        <div>
+            <label id="Birth Date">Birth Date
+                <br>
+                <input type="date" id="Birth Date">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label id="Male">Gender
+                <br>
+                <input type="radio" value="Male" name="Gender" id="Male">Male
+
+            </label>
+            <label id="Female">
+                <input type="radio" value="Female" name="Gender" id="Female">Female
+            </label>
+        </div>
+        <br>
+        <div>
+            <label id="Address">Address
+                <br>
+                <input type="text" id="Address" placeholder="Address Line I">
+
+                <input type="text" id="Address" placeholder="Address Line II">
+                <br>
+                <br>
+                Region:
+                <br>
+                <select>
+                    <option value="India">India </option>
+                    <option value="US">US</option>
+                    <option value="UK">UK</option>
+                    <option value="USA">USA</option>
+                    <option value="China">Chaina</option>
+                </select>
+
+                <input type="text" id="city" placeholder="City">
+                <input type="number" id="Zip code" placeholder="Zip Code">
+            </label>
+        </div>
+        <br>
+        <div>
+            Student Email
+            <br>
+            <input type="Email" placeholder="Email">
+        </div>
+        <br>
+        <div>
+            Phone
+            <br>
+            <select>
+                <option value="+91">+91</option>
+                <option value="+1">+1</option>
+                <option value="+44">+44</option>
+                <option value="+86">+86</option>
+            </select>
+            <input type="number" placeholder="Mobile No.">
+        </div>
+        <br>
+        <div>
+            Work Phone No.
+            <br>
+            <select>
+                <option value="+91">+91</option>
+                <option value="+1">+1</option>
+                <option value="+44">+44</option>
+                <option value="+86">+86</option>
+            </select>
+            <input type="number" placeholder="Mobile No.">
+        </div>
+        <br>
+        <div>
+            Company
+            <br>
+            <input type="text" placeholder="Com.Name">
+        </div>
+        <br>
+        <div>
+            courses
+            <br>
+            <label id="BSC(IT)">
+                <input type="radio" id="BSC(IT)" name="courses">BSC(IT)
+            </label>
+            <label id="BSC(CS)">
+                <input type="radio" id="BSC(CS)" name="courses">BSC(CS)
+            </label>
+
+            <label id="BCA">
+                <input type="radio" id="BCA" name="courses">BCA
+            </label>
+        </div>
+        <br>
+        <div>
+            Additional Comments
+            <br>
+            <textarea placeholder="Comments" rows="5"></textarea>
+        </div>
+    </main>
+    <br>
+    <br>
+    <button>Submit Application</button>
+    <button>Clear Fields</button>
+</body>
+
+</html>
